@@ -25,7 +25,6 @@ The goal of this project is to build an interpretable, reproducible logistic reg
   - figure generation (ROC, PR, threshold curves, confusion matrix)
 - `subject_splits.json` – list of subject IDs used in each split (train/val/test)
 - `requirements.txt` – Python dependencies
-- `LICENSE` – MIT license for this repository
 
 > Note: If your notebook currently lives at the repo root, you can either move it into `notebooks/` or adjust the structure above.
 
