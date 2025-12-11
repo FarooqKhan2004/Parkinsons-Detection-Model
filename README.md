@@ -15,14 +15,14 @@ The goal of this project is to build an interpretable, reproducible logistic reg
 
 ## Repository Structure
 
-- `notebooks/`
-  - `parkinsons_logreg.ipynb` – main Google Colab notebook with the full pipeline:
-    - data loading and preprocessing  
-    - subject-wise splits  
-    - feature scaling  
-    - model training and hyperparameter tuning  
-    - threshold analysis and evaluation  
-    - figure generation (ROC, PR, threshold curves, confusion matrix)
+
+- `ParkinsonsDetector.ipynb` – main Google Colab notebook with the full pipeline:
+  - data loading and preprocessing  
+  - subject-wise splits  
+  - feature scaling  
+  - model training and hyperparameter tuning  
+  - threshold analysis and evaluation  
+  - figure generation (ROC, PR, threshold curves, confusion matrix)
 - `subject_splits.json` – list of subject IDs used in each split (train/val/test)
 - `requirements.txt` – Python dependencies
 - `LICENSE` – MIT license for this repository
